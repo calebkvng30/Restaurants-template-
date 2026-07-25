@@ -1,0 +1,25 @@
+{
+  "name": "mels-cafe-website",
+  "version": "1.0.0",
+  "description": "Mel's Cafe — Leitchfield, KY. Static site with menu, buffet info, and WhatsApp ordering.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "dev": "npx live-server --port=3000",
+    "deploy:netlify": "npx netlify-cli deploy --prod --dir=.",
+    "deploy:vercel": "npx vercel --prod"
+  },
+  "keywords": [
+    "restaurant",
+    "leitchfield",
+    "kentucky",
+    "static-site",
+    "whatsapp-ordering"
+  ],
+  "author": "Caleb",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
